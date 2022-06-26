@@ -74,7 +74,7 @@ reviewForm.addEventListener('submit',(e)=>{
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchData()
-      
+})
 
 function fetchData() {
    fetch("http://localhost:3000/beers")
@@ -104,4 +104,4 @@ function fetchData() {
         });
       });
     }
-})
+
